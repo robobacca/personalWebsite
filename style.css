@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Caviar_Bold;
+    src: url("fonts/CaviarDreams_Bold.ttf");
+}
+
+@font-face {
+    font-family: Caviar;
+    src: url("fonts/CaviarDreams.ttf");
+}
+
+body{
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 70px;
+    color: white;
+    font-family: Caviar_Bold;
+}
+
+h2{
+    font-size: 50px;
+    color: white;
+    font-family: Caviar_Bold;
+}
+
+h3{
+    font-size: 30px;
+    color: white;
+    font-family: Caviar_Bold;
+}
+
+p{
+    font-size: 30px;
+    color: white;
+    font-family: Caviar;
+    font-weight: 100;
+}
+
+ul{
+    text-align: left;
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 4vh;
+    list-style: none;
+}
+
+button{
+    font-size: 30px;
+    color: white;
+    font-family: Caviar;
+    border: 0;
+    background-color: transparent;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.headcontainer{
+    background-image: url("Images/pexels-aarti-vijay-2693529.jpg ");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer{
+    width: 100vw;
+}
+
+.title{
+    width: 100vw;
+    padding-top: 33vh;
+    padding-bottom: 33vh;
+}
+
+.main{
+    background-color: rgba(50,50,50,0.8);
+    width: 80%;
+    margin: 5%;
+}
+
+.profile{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.profiletext{
+    width: 70%;
+    padding: 5%;
+}
+
+.buttons{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+.items{
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+
+@media only screen and (max-width: 1920px) {
+    p{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    button{
+        font-size: 20px;
+    }
+}
